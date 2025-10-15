@@ -4,6 +4,8 @@
 
 The Deepfake SDK for Android provides a comprehensive suite of tools for detecting deepfakes in video and audio sources. It is designed to be easy to integrate into your Android applications, offering a high-level Kotlin API that wraps a powerful, enterprise-grade, and cross-platform core. This core engine is engineered for performance, providing real-time analysis and advanced spoofing detection.
 
+You can download a demo app showcasing the SDK's functionality [here](https://github.com/dataspike-io/Deepfake-MobileSDK-Android/releases/download/v0.0.1-rc15/deepfake-demo-app-0.0.1-rc15.apk).
+
 ## Features
 
 - **Real-time Deepfake Detection**
