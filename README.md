@@ -6,6 +6,17 @@ The Deepfake SDK for Android provides a comprehensive suite of tools for detecti
 
 You can download a demo app showcasing the SDK's functionality [here](https://github.com/dataspike-io/Deepfake-MobileSDK-Android/releases/download/v0.0.1-rc15/deepfake-demo-app-0.0.1-rc15.apk).
 
+## Sample Code
+
+To help you get started, `sample` directory is included in this repository. It contains a minimal set of files demonstrating a basic integration of the SDK:
+
+*   **`SampleAppActivity.kt`**: A simple Activity that hosts the Composable UI.
+*   **`SampleAppScreen.kt`**: A Jetpack Compose screen with a video player and controls to start/stop analysis.
+*   **`SampleAppViewModel.kt`**: A clean ViewModel showing the core logic for initializing the SDK, handling video playback, and receiving analysis results.
+*   **`build.gradle.kts.md`**: The necessary Gradle dependencies.
+
+You can browse the [sample directory](./sample) to see a practical, focused example of how to use the SDK in your own application.
+
 ## Features
 
 - **Real-time Deepfake Detection**
