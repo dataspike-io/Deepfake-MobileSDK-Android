@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.dataspike",
+    "module": "deepfake-sdk",
+    "version": "0.0.1-rc14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "deepfake-sdk-0.0.1-rc14.aar",
+          "url": "deepfake-sdk-0.0.1-rc14.aar",
+          "size": 12491929,
+          "sha512": "b9b7593fe4b1c8a97c1d9f149eff7d4c3197be4a4a56510fffa4682433ae111b7b39f70aa027ee3a8c19972a361b3547db39b55b47c2a14351ed98f7739c7d56",
+          "sha256": "af00358cc154010a6c8152664b5bbec8ca7bf1c5b535b8b8521ff45f722e4ae9",
+          "sha1": "28a9b32ded7dfd04fd48f21003316ee54adb58c9",
+          "md5": "9abfb5a765d95c7ad538211b2d5a4c50"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "io.github.webrtc-sdk",
+          "module": "android",
+          "version": {
+            "requires": "137.7151.04"
+          }
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "10.5"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "deepfake-sdk-0.0.1-rc14.aar",
+          "url": "deepfake-sdk-0.0.1-rc14.aar",
+          "size": 12491929,
+          "sha512": "b9b7593fe4b1c8a97c1d9f149eff7d4c3197be4a4a56510fffa4682433ae111b7b39f70aa027ee3a8c19972a361b3547db39b55b47c2a14351ed98f7739c7d56",
+          "sha256": "af00358cc154010a6c8152664b5bbec8ca7bf1c5b535b8b8521ff45f722e4ae9",
+          "sha1": "28a9b32ded7dfd04fd48f21003316ee54adb58c9",
+          "md5": "9abfb5a765d95c7ad538211b2d5a4c50"
+        }
+      ]
+    }
+  ]
+}
