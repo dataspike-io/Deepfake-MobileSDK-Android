@@ -15,7 +15,7 @@ To help you get started, `sample` directory is included in this repository. It c
 *   **`SampleAppViewModel.kt`**: A clean ViewModel showing the core logic for initializing the SDK, handling video playback, and receiving analysis results.
 *   **`build.gradle.kts.md`**: The necessary Gradle dependencies.
 
-You can browse the [sample directory](./sample) to see a practical, focused example of how to use the SDK in your own application.
+You can browse the [sample directory](./deepfake-sdk/sample) to see a practical, focused example of how to use the SDK in your own application.
 
 ## Features
 
